@@ -1,0 +1,35 @@
+{
+	"name": "mdjimy/security",
+	"description": "Nette Advanced Security Component",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Martin Dendis",
+			"homepage": "http://github.com/mdjimy/"
+		}
+	],
+	"require": {
+		"php": ">=5.3.1",
+		"nette/di": "~2.3@dev",
+		"nette/neon": "~2.2@dev",
+		"nette/utils": "~2.2@dev",
+		"nette/security": "~2.3@dev"
+	},
+	"require-dev": {
+		"nette/di": "~2.3@dev",
+		"nette/neon": "~2.2@dev",
+		"nette/http": "~2.3@dev",
+		"nette/utils": "~2.2@dev",
+		"nette/tester": "~1.0@dev",
+		"nette/security": "~2.3@dev"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"minimum-stability": "dev",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.3-dev"
+		}
+	}
+}
